@@ -1,4 +1,8 @@
 #write your code here
 
-def countdown()
+def countdown(count)
+  loop
+    puts count
+    count -= 1 
+  end
 end
